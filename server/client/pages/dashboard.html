@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <link href="../public/favicon.ico" rel="shortcut icon">
+  <title>GOOSE | Dashboard</title>
+  <!-- Font Awesome Icons -->
+  <link rel="stylesheet" type="text/css" href="../node_modules/admin-lte/plugins/fontawesome-free/css/all.min.css">
+  <!-- Theme style -->
+  <link rel="stylesheet" type="text/css" href="../node_modules/admin-lte/dist/css/adminlte.min.css">
+  <link type="text/css" rel="stylesheet" href="../node_modules/gridstack/dist/gridstack.min.css">
+  <link type="text/css" rel="stylesheet" href="../node_modules/tabulator-tables/dist/css/tabulator_midnight.min.css">
+  <link rel="stylesheet" href="../public/css/gooser.css">
+</head>
+
+<body class="hold-transition sidebar-mini">
+  <audio id="alarm_sound_1" src="../public/sound/ALARM3.WAV" controls style="display: none;"></audio>
+  <audio id="alarm_sound_2" src="../public/sound/ALARM8.WAV" controls style="display: none;"></audio>
+  <div class="bg-dark">
+    <!-- Main content -->
+    <div class="content">
+      <div class="grid-stack"></div>
+    </div>
+  </div>
+  <!-- REQUIRED SCRIPTS -->
+  <!-- Gridstack -->
+  <script type="text/javascript" src="../node_modules/gridstack/dist/gridstack-all.js"></script>
+  <script type="text/javascript" src="../node_modules/echarts/dist/echarts.min.js"></script>
+  <script type="text/javascript" src="../node_modules/tabulator-tables/dist/js/tabulator.min.js"></script>
+  <script type="module" src="../public/js/dashboard.js" async></script>
+</body>
+
+</html>

@@ -1,0 +1,50 @@
+@-webkit-keyframes flashred {
+    0% {
+        background-color: rgba(220, 38, 38, 0.2);
+
+    }
+
+    100% {
+        background-color: rgba(220, 38, 38, 0.9);
+
+    }
+}
+
+.flashred {
+    -webkit-animation: flashred 200ms infinite;
+
+}
+
+@-webkit-keyframes flashyellow {
+    0% {
+        background-color: rgba(255, 248, 220, 0.2);
+
+    }
+
+    100% {
+        background-color: rgba(255, 215, 0, 0.9);
+
+    }
+}
+
+.flashyellow {
+    -webkit-animation: flashyellow 500ms infinite;
+
+}
+
+.row{ margin-right: unset; margin-left: unset;}
+.card {background-color: unset;}
+/* .card-wrapper { margin:0 5px; } */
+/* .card-header { padding:5px auto;}
+.card-body { padding:unset; } */
+.card-body {padding: 0;}
+.login-logo a {color: unset;}
+
+.border-bottom {
+    border-bottom: unset!important;
+}
+@media (min-width: 1200px){
+.modal-xxl {
+    max-width: 1540px;
+}
+}

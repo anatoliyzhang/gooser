@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <link href="../public/favicon.ico" rel="shortcut icon">
+  <title>GOOSE | History</title>
+
+  <!-- Font Awesome Icons -->
+  <link rel="stylesheet" type="text/css" href="../node_modules/admin-lte/plugins/fontawesome-free/css/all.min.css">
+  <!-- Theme style -->
+  <link rel="stylesheet" type="text/css" href="../node_modules/admin-lte/dist/css/adminlte.min.css">
+  <link type="text/css" rel="stylesheet" href="../node_modules/gridstack/dist/gridstack.min.css">
+  <link type="text/css" rel="stylesheet" href="../node_modules/tabulator-tables/dist/css/tabulator_midnight.min.css">
+  <link rel="stylesheet" href="../public/css/gooser.css">
+</head>
+
+<body class="hold-transition sidebar-mini">
+  <div class="bg-dark">
+    <!-- Main content -->
+    <div class="content">
+      <div class="row">
+        <div class="col-md-2">
+          <div class="form-group">
+            <label class="col-form-label" for="history-time-from"><i class="fas fa-play"></i> Query history from</label>
+            <input type="datetime-local" class="form-control" id="history-time-from" value="">
+          </div>
+      </div>
+      <div class="col-md-2">
+        <div class="form-group">
+          <label class="col-form-label" for="history-time-to"><i class="fas fa-step-backward"></i> Query history to</label>
+          <input type="datetime-local" class="form-control" id="history-time-to" value="">
+        </div>
+    </div>
+    <div class="col-md-2">
+      <div class="form-group">
+        <label class="col-form-label" for="history-channel"><i class="fas fa-thermometer"></i> Query Channel</label>
+        <div class="input-group-append">
+          <select name="channels-list" class="form-control" id="history-channel"></select>
+          <button type="submit" class="btn  btn-default" id="history-query-button">
+              <i class="fa fa-search"></i>
+          </button>
+        </div>
+      </div>
+  </div>
+      </div>
+      <div class="row">
+        <div class="col-md-12">
+          <div class="grid-stack"></div>
+        </div>
+        
+      </div>
+    </div>
+
+  </div>
+  <!-- REQUIRED SCRIPTS -->
+  <script type="text/javascript" src="../node_modules/gridstack/dist/gridstack-all.js"></script>
+  <script type="text/javascript" src="../node_modules/echarts/dist/echarts.min.js"></script>
+  <script type="text/javascript" src="../node_modules/file-saver/dist/FileSaver.min.js"></script>
+  <script type="text/javascript" src="../node_modules/exceljs/dist/exceljs.min.js"></script>
+  <script type="text/javascript" src="../node_modules/tabulator-tables/dist/js/tabulator.min.js"></script>
+  <script type="module" src="../public/js/history.js" async></script>
+
+</body>
+
+</html>

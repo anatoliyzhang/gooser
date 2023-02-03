@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta http-equiv="x-ua-compatible" content="ie=edge" />
+  <link href="../public/favicon.ico" rel="shortcut icon" />
+  <title>GOOSER | Geomaps Management</title>
+
+  <!-- Font Awesome Icons -->
+  <link rel="stylesheet" type="text/css" href="../node_modules/admin-lte/plugins/fontawesome-free/css/all.min.css" />
+  <!-- Theme style -->
+  <link rel="stylesheet" type="text/css" href="../node_modules/admin-lte/dist/css/adminlte.min.css" />
+  <link type="text/css" rel="stylesheet" href="../node_modules/tabulator-tables/dist/css/tabulator_simple.min.css" />
+  <link rel="stylesheet" href="../public/css/gooser.css" />
+
+</head>
+
+<body class="hold-transition sidebar-mini">
+  <div class="bg-dark">
+    <!-- Main content -->
+    <div class="content">
+      <div class="row">
+        <div class="col-12 col-sm-12">
+          <div class="card card-success">
+            <div class="card-header">
+              <h3 class="card-title"><i class="fas fa-map nav-icon"></i> Geomaps</h3>
+              <div class="card-tools">
+                <button type="button" class="btn btn-tool" id="geomaps-plus">
+                  <i class="fas fa-plus-circle"></i>
+                </button>
+
+              </div>
+            </div>
+            <div class="card-body bg-dark grid-stack" id="geomaps-table"></div>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+
+    <!-- /.content -->
+  </div>
+  <!-- ./wrapper -->
+  <div class="modal" tabindex="-1" role="dialog" id="add-geomap-modal">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title">Add a Geomap</h5>
+        </div>
+        <div class="modal-body">
+          <p>Modal body text goes here.</p>
+          <input type="file" id="new_geomap_file" accept="image/*">
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" id="add-geomap-cancel">Close</button>
+          <button type="button" class="btn btn-primary" id="add-geomap-save">OK(Save)</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- REQUIRED SCRIPTS -->
+
+  <script type="text/javascript" src="../node_modules/tabulator-tables/dist/js/tabulator.min.js"></script>
+  <script type="module" src="../public/js/geomaps.js" async></script>
+</body>
+
+</html>

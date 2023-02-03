@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta http-equiv="x-ua-compatible" content="ie=edge" />
+  <link href="../public/favicon.ico" rel="shortcut icon" />
+  <title>GOOSER | Dashboards Management</title>
+
+  <!-- Font Awesome Icons -->
+  <link rel="stylesheet" type="text/css" href="../node_modules/admin-lte/plugins/fontawesome-free/css/all.min.css" />
+  <!-- Theme style -->
+  <link rel="stylesheet" type="text/css" href="../node_modules/admin-lte/dist/css/adminlte.min.css" />
+  <link type="text/css" rel="stylesheet" href="../node_modules/gridstack/dist/gridstack.min.css" />
+  <link type="text/css" rel="stylesheet" href="../node_modules/tabulator-tables/dist/css/tabulator_simple.min.css" />
+  <link rel="stylesheet" href="../public/css/gooser.css" />
+</head>
+
+<body class="hold-transition sidebar-mini">
+  <div class="bg-dark">
+    <!-- Main content -->
+    <div class="content">
+      <div class="row">
+        <div class="col-2 col-sm-2">
+          <div class="card card-success">
+            <div class="card-header">
+              <h3 class="card-title"><i class="fas fa-tachometer-alt nav-icon"></i> Dashboards</h3>
+              <div class="card-tools">
+                <button type="button" class="btn btn-tool" id="dashboard-plus">
+                  <i class="fas fa-plus-circle"></i>
+                </button>
+              </div>
+            </div>
+            <div class="card-body bg-dark" id="dashboards_table">
+            </div>
+          </div>
+        </div>
+        <div class="col-10 col-sm-10">
+          <div><button type="button" class="btn btn-info" id="add_widget_button">Add a widget</button></div>
+          <div class="grid-stack"></div>
+        </div>
+      </div>
+
+    </div>
+
+    <!-- /.content -->
+  </div>
+  <!-- REQUIRED SCRIPTS -->
+  <!-- jQuery -->
+  <!-- <script type="text/javascript" src="../node_modules/jquery/dist/jquery.min.js"></script> -->
+  <!-- Bootstrap 4 -->
+  <!-- <script type="text/javascript" src="../node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+  <script type="text/javascript" src="../node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script> -->
+  <!-- AdminLTE App -->
+  <!-- <script type="text/javascript" src="../node_modules/admin-lte/dist/js/adminlte.min.js"></script> -->
+  <!-- You can also require other files to run in this process -->
+  <!-- Gridstack -->
+  <script type="text/javascript" src="../node_modules/gridstack/dist/gridstack-all.js"></script>
+  <script type="text/javascript" src="../node_modules/tabulator-tables/dist/js/tabulator.min.js"></script>
+  <script type="module" src="../public/js/dashboards.js" async></script>
+</body>
+
+</html>

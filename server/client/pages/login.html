@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Log in</title>
+  <link href="../public/favicon.ico" rel="shortcut icon">
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="../node_modules/admin-lte/plugins/fontawesome-free/css/all.min.css">
+  <link rel="stylesheet" href="../node_modules/admin-lte/dist/css/adminlte.min.css">
+  <link rel="stylesheet" href="../public/css/gooser.css">
+
+</head>
+<body class="hold-transition login-page bg-dark">
+<div class="login-box bg-dark">
+  <div class="login-logo">
+    <a href="../../index2.html"><b>Company Name Inc.</b></a>
+  </div>
+  <!-- /.login-logo -->
+  <div class="card">
+    <div class="card-body login-card-body">
+      <p class="login-box-msg">Log in to start your administration.</p>
+
+      <!-- <form action="/login" method="post"> -->
+        <div class="input-group mb-3">
+          <input id="username" type="text" value="" class="form-control" placeholder="username">
+          <div class="input-group-append">
+            <div class="input-group-text">
+              <span class="fas fa-user-tie"></span>
+            </div>
+          </div>
+        </div>
+        <div class="input-group mb-3">
+          <input id="password" type="password" value="" class="form-control" placeholder="password">
+          <div class="input-group-append">
+            <div class="input-group-text">
+              <span class="fas fa-lock"></span>
+            </div>
+          </div>
+        </div>
+        <div id="error" class="text-danger"></div>
+
+          <div class="col-4">
+            <button id="login_submit" type="submit" class="btn btn-primary btn-block">Log In</button>
+          </div>
+
+        </div>
+
+    </div>
+
+  </div>
+</div>
+<script src="../public/js/login.js"></script>
+</body>
+</html>
