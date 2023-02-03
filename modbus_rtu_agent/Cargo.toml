@@ -1,0 +1,23 @@
+[package]
+name = "modbus_rtu_agent"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+futures-util = "0.3"
+tokio = {version = "=1.22.0", features = ["full"]}
+websocket-lite = "0.5"
+tokio-serial = "*"
+# tokio-modbus = { version = "*", default-features = false, features = ["rtu"] }
+ureq = { version = "*", features = ["json"] }
+tokio-modbus = "*"
+serde_json = "1"
+serde = "1"
+serde_derive = "1"
+# chrono = "0.4"
+# dotenv = "*"
+config = "*"
+local-ip-address = "*"
+rand = "0.8"
