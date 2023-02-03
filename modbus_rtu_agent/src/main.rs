@@ -16,7 +16,7 @@ use tokio_serial::SerialStream;
 use ureq;
 use websocket_lite::{Message, Result};
 use local_ip_address::{local_ip};
-use rand::prelude::*;
+// use rand::prelude::*;
 
 #[derive(Debug, Serialize, Deserialize)]
 struct Device {
@@ -209,8 +209,9 @@ async fn main() -> Result<()> {
             for (i, v) in rsp_raw.iter().enumerate() {
                 let current_channel = device.channels.get(i).unwrap();
                 // random for test purpose
-                let rnd:u8 = random();
-                let v_scaled = v.as_f64().unwrap() * current_channel.scale * (rnd as f64) / 150.0f64;
+                // let rnd:u8 = random();
+                // let v_scaled = v.as_f64().unwrap() * current_channel.scale * (rnd as f64) / 150.0f64;
+                let v_scaled = v.as_f64().unwrap() * current_channel.scale;
                 // rsp_scaled.push(json!(v_scaled));
                 result_data.push(v_scaled);
                 let status_code = match v_scaled {
