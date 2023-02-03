@@ -146,7 +146,14 @@ Author: [https://www.zhangshifeng.com](https://www.zhangshifeng.com)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+## Screenshots
 
+<img src="https://github.com/anatoliyzhang/gooser/raw/main/screenshots/dashboard-demo.png" alt="Demo">
+<img src="https://github.com/anatoliyzhang/gooser/raw/main/screenshots/dashboard-geo-normal.png" alt="Geo Normal">
+<img src="https://github.com/anatoliyzhang/gooser/raw/main/screenshots/dashboard-geo-alarm.png" alt="Geo Alarm">
+<img src="https://github.com/anatoliyzhang/gooser/raw/main/screenshots/dashboard-manage.png" alt="Dashboard Manage">
+<img src="https://github.com/anatoliyzhang/gooser/raw/main/screenshots/device-manage.png" alt="Device Manage">
+<img src="https://github.com/anatoliyzhang/gooser/raw/main/screenshots/history.png" alt="History">
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
