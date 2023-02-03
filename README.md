@@ -55,7 +55,8 @@ The server application connects with the agents and clients(browsers). It receiv
 
 ## Scheme
 <img src="https://github.com/anatoliyzhang/gooser/raw/main/screenshots/gooser-scheme.png" alt="Scheme">
-<!-- ROADMAP -->
+
+
 ## Features
 
 - Easy installation
