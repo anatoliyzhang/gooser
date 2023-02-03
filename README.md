@@ -31,7 +31,7 @@
 <br />
 <div align="center">
   <a href="https://github.com/anatoliyzhang/gooser">
-    <img src="[server/client/public/img/gooser.png](https://github.com/anatoliyzhang/gooser/raw/main/server/client/public/img/gooser.png)" alt="Logo">
+    <img src="https://github.com/anatoliyzhang/gooser/raw/main/server/client/public/img/gooser.png" alt="Logo">
   </a>
 
 <h3 align="center">GOOSER</h3>
@@ -54,7 +54,7 @@ The server application connects with the agents and clients(browsers). It receiv
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## Scheme
-<img src="[screenshots/gooser-scheme.png](https://github.com/anatoliyzhang/gooser/raw/main/screenshots/gooser-scheme.png)" alt="Scheme">
+<img src="https://github.com/anatoliyzhang/gooser/raw/main/screenshots/gooser-scheme.png" alt="Scheme">
 <!-- ROADMAP -->
 ## Features
 
